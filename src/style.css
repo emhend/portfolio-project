@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
   background-color: rgb(255, 255, 241);
   background-size: cover;
 }
@@ -12,6 +14,12 @@ h1 {
   line-height: 35px;
 }
 
+h2 {
+  font-family: "Yeseva One", cursive;
+  color: #f096d7;
+  font-size: 34px;
+}
+
 h3 {
   font-size: 20px;
   color: #f096d7;
@@ -21,10 +29,27 @@ p {
   font-size: 12px;
 }
 
-.greeting-container {
-  padding-top: 150px;
+footer {
+  padding-top: 15px;
 }
 
-.project-container {
-  background-color: #f096d7;
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.greeting-container {
+  padding-top: 150px;
+  padding-bottom: 15px;
+}
+
+.icon {
+  color: #f096d7;
+  font-size: 24px;
+  padding: 3px;
 }
