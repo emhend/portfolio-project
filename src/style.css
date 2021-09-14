@@ -37,6 +37,8 @@ h4 {
   color: var(--primary-color);
   font-family: "Yeseva One", cursive;
   padding-top: 15px;
+  text-decoration: underline;
+  line-height: 20px;
 }
 
 p {
@@ -99,4 +101,8 @@ footer {
   border-radius: 4px;
   max-width: 100%;
   height: auto;
+}
+
+.padding-top {
+  padding-top: 15px;
 }
