@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #f096d7;
+  --secondary-color: #fac2ea;
+}
+
 body {
   text-align: center;
   font-family: Calibri, "Trebuchet MS", sans-serif;
@@ -24,11 +29,18 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: #f096d7;
+  color: var(--primary-color);
+}
+
+h4 {
+  font-size: 25px;
+  color: var(--primary-color);
+  font-family: "Yeseva One", cursive;
+  padding-top: 15px;
 }
 
 p {
-  color: #f096d7;
+  color: var(--primary-color);
   font-size: 12px;
 }
 
@@ -41,21 +53,23 @@ footer {
   padding-bottom: 15px;
 }
 .project-link {
-  color: #f096d7;
+  color: var(--primary-color);
   text-decoration: none;
+  line-height: 15px;
+  padding-bottom: 10px;
 }
 .project-link:hover {
-  color: #fac2ea;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 .icon,
 .icon-big {
-  color: #f096d7;
+  color: var(--primary-color);
   padding: 3px;
 }
 .icon:hover,
 .icon-big:hover {
-  color: #fac2ea;
+  color: var(--secondary-color);
 }
 .icon {
   font-size: 24px;
@@ -65,13 +79,17 @@ footer {
   font-size: 50px;
 }
 
-.about-section {
-  color: #000;
-  text-align: left;
+.p-section {
   text-indent: 15px;
   line-height: 20px;
+  color: #000;
+  text-align: left;
 }
-
+.p-projects {
+  color: #000;
+  text-align: center;
+  line-height: 10px;
+}
 .section-container {
   padding: 20px;
 }
@@ -79,4 +97,6 @@ footer {
 .certificates {
   border: 1px solid #000;
   border-radius: 4px;
+  max-width: 100%;
+  height: auto;
 }
