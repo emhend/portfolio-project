@@ -16,8 +16,10 @@ h1 {
 
 h2 {
   font-family: "Yeseva One", cursive;
-  color: #f096d7;
+  color: #000;
   font-size: 34px;
+  word-spacing: 1px;
+  line-height: 35px;
 }
 
 h3 {
@@ -33,23 +35,37 @@ footer {
   padding-top: 15px;
 }
 
-a {
-  color: #fff;
-}
-
-a:hover {
-  color: #fff;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.greeting-container {
+.text-container {
   padding-top: 150px;
   padding-bottom: 15px;
 }
 
-.icon {
+.icon,
+.icon-big {
   color: #f096d7;
-  font-size: 24px;
   padding: 3px;
+}
+.icon:hover,
+.icon-big:hover {
+  color: #fac2ea;
+}
+.icon {
+  font-size: 24px;
+}
+
+.icon-big {
+  font-size: 50px;
+}
+
+.about-section {
+  text-align: left;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-container {
+  padding: 15px;
 }
